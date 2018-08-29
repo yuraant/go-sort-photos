@@ -6,6 +6,6 @@
 body, html, #app {min-height: 100%;}
 body {padding: 2em;background-color: #eeeeee;color: #131111;}
 button {font-size: 1em;}
-ul {-webkit-column-count: 3;-moz-column-count: 3;column-count: 3;}
-li {display: inline-block;font-size: 15px;padding: 15px;}
+ul {display: flex;flex-wrap: wrap;padding-left: 0;}
+li {list-style: none;flex: 0 0 33.3333%;padding: 15px;}
 img {padding: 5px;width: 300px;
